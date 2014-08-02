@@ -57,7 +57,6 @@ Data in text format can be found in ./data/Drimus12RAS_schunk_dexterous/format:t
 
 The dataset was collected by Alin Drimus (drimus@mci.sdu.dk). Please directly contact Alin Drimus to obtain the complete database for 10 object categories.
 Detailed description of the dataset can be found in:
-
 [2] Alin Drimus, Gert Kootstra, Arne Bilberg, Danica Kragic, "Design of a flexible tactile sensor for classification of rigid and deformable objects", In the Robotics and Autonomous Systems, 2012
 .
 
