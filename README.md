@@ -53,12 +53,9 @@ INPUT FILE FORMAT
 DATASET
 =================
 Tactile data were collected for five objects using the 3-finger Schunk Dexerous hand with three proximal (14x6 pixels) and three distal (13x6 pixels) tactile sensors. 
-Dataset was collected by Alin Drimus and its detailed description can be found in:
-[2] Alin Drimus, Gert Kootstra, Arne Bilberg, Danica Kragic, "Design of a flexible tactile sensor for classification of rigid and deformable objects", In the Robotics and Autonomous Systems, 2012
-
 Data in text format can be found in ./data/Drimus12RAS_schunk_dexterous/format:txt. The same data in Matlab format can be found in ./data/Drimus12RAS_schunk_dexterous/format:mat 
 
-To obtain the database for 10 object categories please directly contact Alin Drimus (drimus@mci.sdu.dk).
-
-
+The dataset was collected by Alin Drimus (drimus@mci.sdu.dk) and its detailed description can be found in:
+[2] Alin Drimus, Gert Kootstra, Arne Bilberg, Danica Kragic, "Design of a flexible tactile sensor for classification of rigid and deformable objects", In the Robotics and Autonomous Systems, 2012
+To obtain the database for 10 object categories, please directly contact Alin Drimus.
 
