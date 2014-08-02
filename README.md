@@ -1,6 +1,7 @@
 SPATIO-TEMPORAL HIERARCHICAL MATCHING PURSUIT SOFTWARE
 =======================================================
 This package contains implementation of the Spatio-Temporal Hierarchical Matching Pursuit (ST-HMP) descriptor presented in the following paper:
+
 [1] Marianna Madry, Liefeng Bo, Danica Kragic, Dieter Fox, "ST-HMP: Unsupervised Spatio-Temporal Feature Learning for Tactile Data". In IEEE International Conference on Robotics and Automation (ICRA), May 2014
 Download: http://www.nada.kth.se/~madry/publications/madry2014ICRA.pdf
 
