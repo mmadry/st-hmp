@@ -5,7 +5,7 @@ function dirPath=set_dir_paths;
 %    date: June, 2014 
 %    email: marianna.madry@gmail.com
 
-    dirPath.main='/home/marianna/Praca/repos/code/sthmp/branch/KIT'; %Please set your own path 
+    dirPath.main='../'; %Please set your own path 
     
     % default paths
     dirPath.data=[dirPath.main,'/data'];
