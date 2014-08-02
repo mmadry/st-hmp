@@ -1,0 +1,33 @@
+/home/xren/programs/others/octave/bin/mex   CC=icc CXX=icpc -largeArrayDims   ompmex.c mexutils.c  myblas.c  ompcore.c  ompprof.c  omputils.c
+icc: command line warning #10120: overriding '-marchnative' with '-msse'
+icc: command line warning #10120: overriding '-msse' with '-msse3'
+icc: command line warning #10120: overriding '-marchnative' with '-msse'
+icc: command line warning #10120: overriding '-msse' with '-msse3'
+icc: command line warning #10120: overriding '-marchnative' with '-msse'
+icc: command line warning #10120: overriding '-msse' with '-msse3'
+myblas.c(255): warning #186: pointless comparison of unsigned integer with zero
+          jadd = delta<0;
+                      ^
+
+myblas.c(591): warning #144: a value of type "double *" cannot be used to initialize an entity of type "float *"
+    float *aPr = mxGetPr(a);
+                 ^
+
+icc: command line warning #10120: overriding '-marchnative' with '-msse'
+icc: command line warning #10120: overriding '-msse' with '-msse3'
+ompcore.c(64): warning #556: a value of type "double *" cannot be assigned to an entity of type "float *"
+      gammaPr = mxGetPr(Gamma);
+              ^
+
+ompcore.c(75): warning #556: a value of type "double *" cannot be assigned to an entity of type "float *"
+      gammaPr = mxGetPr(Gamma);
+              ^
+
+ompcore.c(340): warning #556: a value of type "double *" cannot be assigned to an entity of type "float *"
+          gammaPr = mxGetPr(Gamma);
+                  ^
+
+icc: command line warning #10120: overriding '-marchnative' with '-msse'
+icc: command line warning #10120: overriding '-msse' with '-msse3'
+icc: command line warning #10120: overriding '-marchnative' with '-msse'
+icc: command line warning #10120: overriding '-msse' with '-msse3'

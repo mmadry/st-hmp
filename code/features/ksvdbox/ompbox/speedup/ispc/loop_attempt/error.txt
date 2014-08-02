@@ -1,0 +1,52 @@
+ompcore_loop.ispc:222:9: Error: Unable to find matching overload for call to 
+                   function "mat_vec". 
+        mat_vec(-1, Dsub, c, r, n, i);             /* compute r := -Dsub*c */
+        ^^^^^^^
+
+Candidate functions:
+	void mat_vec(double alpha, double[] A, double[] x, double[] y, double[] Ax, int32 n, int32 m)
+Passed types:        (const uniform int32, reference<uniform double[]>, reference<uniform double[]>, reference<uniform double[]>, uniform int32, int32)
+
+ompcore_loop.ispc:223:20: Error: First operand to binary operator "+" is of 
+                   invalid type "reference<uniform double[]>". 
+        vec_sum(1, x+n*signum, r, n);              /* compute r := x+r */
+                   ^
+
+ompcore_loop.ispc:223:9: Error: Unable to find matching overload for call to 
+                   function "vec_sum". 
+        vec_sum(1, x+n*signum, r, n);              /* compute r := x+r */
+        ^^^^^^^
+
+Candidate functions:
+	void vec_sum(double alpha, double[] x, double[] y, int32 n)
+Passed types:        (const uniform int32, (unknown type), reference<uniform double[]>, uniform int32)
+
+ompcore_loop.ispc:236:9: Error: Unable to find matching overload for call to 
+                   function "mat_vec". 
+        mat_vec(1, Gsub, c, tempvec1, m, i);                              /* compute tempvec1 := Gsub*c */
+        ^^^^^^^
+
+Candidate functions:
+	void mat_vec(double alpha, double[] A, double[] x, double[] y, double[] Ax, int32 n, int32 m)
+Passed types:        (const uniform int32, reference<uniform double[]>, reference<uniform double[]>, reference<uniform double[]>, uniform int32, int32)
+
+ompcore_loop.ispc:256:9: Error: Undeclared symbol "gamma_mode". 
+    if (gamma_mode == FULL_GAMMA) {    /* write the coefs in c to their correct positions in gamma */
+        ^^^^^^^^^^
+
+ompcore_loop.ispc:256:23: Error: Undeclared symbol "FULL_GAMMA". 
+    if (gamma_mode == FULL_GAMMA) {    /* write the coefs in c to their correct positions in gamma */
+                      ^^^^^^^^^^
+
+Parse error: syntax error
+ompcore_loop.ispc:291:2: Error: Syntax error--premature end of file. 
+}
+ ^
+
+./myblas.ispc:562:17: Error: Can't convert between incompatible reference 
+               types "reference<uniform double[]>" and "reference<double[]>" 
+               for function call argument. 
+    backsubst_L(A, b, tmp, n, k);
+                ^
+
+ispc: expr.cpp:2543: virtual llvm::Value* FunctionCallExpr::GetValue(FunctionEmitContext*) const: Assertion `argExpr != __null' failed.
