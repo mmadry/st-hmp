@@ -16,7 +16,7 @@ function p=set_general_parameters();
      
     P.pyramid = [1 2 4 8 16];   % ST-HMP parameter: temporal partition of a sequence in ST-HMP descriptor, can be chosen using cross-validation (see, paper [1] Section C.1)
       
-    P.iternumSVD = 15;          % number of iteration in K-SVD algorithm (when running demo, observe a decreasing value of RMSE error). Default value: 35-50
+    P.iternumSVD = 10;          % number of iteration in K-SVD algorithm (when running demo, observe a decreasing value of RMSE error). Default value: 35-50
     P.imScale = 1;              % input matrix scaling factor; 1 - no scaling (an original matrix size is kept)
     P.normMag = 1;              % optional normalization of a feature magnitude; 1 - normalize (recommended), 0 - do not normalize
       

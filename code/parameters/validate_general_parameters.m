@@ -16,7 +16,7 @@ function p=validate_general_parameters(P);
       addRequired(p,'nF',@(x) ( x > 0 && mod(x,1)==0 )); 
       addRequired(p,'noLayers',@(x) ( x==1 || x==2 ));
     
-      addRequired(p,'iternumSVD',@(x) ( x > 10 && mod(x,1)==0 ));
+      addRequired(p,'iternumSVD',@(x) ( x > 9 && mod(x,1)==0 ));
       addRequired(p,'imScale',   @(x) ( x > 0 )); 
       addRequired(p,'normMag',   @(x) ( x == 0 || x==1 ));
       
