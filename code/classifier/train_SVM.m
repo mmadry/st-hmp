@@ -10,7 +10,6 @@ function classifier = train_SVM(label,features);
   options = ['-s ',num2str(classifier.s),' -c ',num2str(classifier.c)]; 
 
   % Training
-  disp('SVM training')
   classifier.model = train(label,double(features),options); 
   
   

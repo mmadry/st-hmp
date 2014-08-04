@@ -5,7 +5,6 @@ function [acc,labelPredict]=test_SVM(classifier,labelTrue,features)
 %    date: June, 2014 
 %    email: marianna.madry@gmail.com
 
-  disp('*** Results')
   [labelPredict, acc, decValues] = predict(labelTrue, double(features), classifier.model);
   
 
