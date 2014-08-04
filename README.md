@@ -11,7 +11,7 @@ It is released under the BSD license.
 
 DEMO
 =================
-We provide implementation of a complete classification system in which 3D data matrices (spatio-temporal sequences) are represented using the ST-HMP descriptor. Alternatively, 2D data matrices (spatial signal, such as images) can be represented using the HMP descriptor. 
+We provide implementation of a complete classification system in which 3D data matrices (spatio-temporal sequences) are represented using the ST-HMP descriptor. The code can be also used for 2D data matrices (spatial signal, such as images) to represente them using the HMP descriptor. 
 
 Demo shows how to use the ST-HMP for an object classification task based on sequences of real tactile data. It consists of two parts: 
 - Learning and extracting of:
@@ -21,9 +21,9 @@ Demo shows how to use the ST-HMP for an object classification task based on sequ
 
 Running demo: 
   - demo includes two external dependencies: liblinear and ksvdbox. To recompile the mex codes, please follow instructions in these packages
-  - in order to run demo, please execute file: ./code/demo_HMP_STHMP.m
-  - system parameters are described in files in the directory ./code/parameters
-  - generated results will be saved in directory ./output
+  - in order to run demo, please execute the file: ./code/demo_HMP_STHMP.m
+  - system parameters are defined and described in a few files in the directory ./code/parameters
+  - generated results will be saved in the directory ./output
   - demo was tested for Linux and Matlab R2011b. If any problems occur, please send an email to Marianna Madry (marianna.madry@gmail.com)
 
 The implementation of the HMP descriptor is based on the Multipath Hierarchical Matching Pursuit software by Liefeng Bo (liefengbo@gmail.com) downloaded from: http://research.cs.washington.edu/istc/lfb/software/hmp/mhmp_cvpr.zip
@@ -54,10 +54,10 @@ INPUT FILE FORMAT
 DATASET
 =================
 Tactile data were collected for five objects using the 3-finger Schunk Dexerous hand with three proximal (14x6 pixels) and three distal (13x6 pixels) tactile sensors. 
-Data in text format can be found in ./data/Drimus12RAS_schunk_dexterous/format:txt. The same data in Matlab format can be found in ./data/Drimus12RAS_schunk_dexterous/format:mat 
+The data in a text format can be found in ./data/Drimus12RAS_schunk_dexterous/format:txt. The same data in the Matlab format can be found in ./data/Drimus12RAS_schunk_dexterous/format:mat 
 
-The dataset was collected by Alin Drimus (drimus@mci.sdu.dk). Please directly contact Alin Drimus to obtain the complete database for 10 object categories.
-Detailed description of the dataset can be found in:
+Database was collected by Alin Drimus (drimus@mci.sdu.dk). Please directly contact Alin Drimus to obtain the complete database for 10 object categories.
+Detailed description of the database can be found in:
 [2] Alin Drimus, Gert Kootstra, Arne Bilberg, Danica Kragic, "Design of a flexible tactile sensor for classification of rigid and deformable objects", In the Robotics and Autonomous Systems, 2012
 .
 
